@@ -21,4 +21,7 @@ public class Nft {
 
     @Column(name="university_id")
     private String universityId;
+
+    @Column(name="card_uri")
+    private String cardUri;
 }
